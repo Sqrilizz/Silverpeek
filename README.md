@@ -4,28 +4,8 @@
 
 > Полное руководство по приготовлению алкогольных и безалкогольных напитков на сервере **SilverPeek**
 
-[![BreweryX](https://img.shields.io/badge/BreweryX-3.6.3-orange)](https://hangar.papermc.io/BreweryTeam/BreweryX)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.8--1.21-green)](https://www.minecraft.net/)
-[![Server](https://img.shields.io/badge/Server-SilverPeek-purple)](https://mc.silverpeek.ru)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](LICENSE)
 
 ---
-
----
-
-## 🎮 О сервере SilverPeek
-
-**Адрес сервера:** `mc.silverpeek.ru`
-
-Все рецепты в этой книге протестированы и работают на сервере SilverPeek. Присоединяйтесь к нам, чтобы попробовать все эти напитки в игре!
-
-### Особенности сервера:
-- ✅ Активное сообщество
-- ✅ Плагин BreweryX с полным набором рецептов
-- ✅ Возможность открыть свою таверну или пивоварню
-- ✅ Экономика и торговля напитками
-
-📖 [Подробнее о сервере →](SERVER_INFO.md)
 
 ---
 
@@ -62,33 +42,6 @@
    - [☕ Безалкогольные напитки](05_безалкогольные.md)
 
 3. **Начните варить!**
-
-### Для администраторов серверов:
-
-1. **Установите BreweryX:**
-   ```bash
-   # Скачайте плагин
-   wget https://hangar.papermc.io/BreweryTeam/BreweryX/versions/latest/download
-   
-   # Поместите в папку plugins
-   mv BreweryX-*.jar plugins/
-   
-   # Перезапустите сервер
-   ```
-
-2. **Скопируйте рецепты:**
-   ```bash
-   # Скопируйте recipes.yml в папку плагина
-   cp recipes.yml plugins/BreweryX/recipes.yml
-   
-   # Перезагрузите конфигурацию
-   /brew reload
-   ```
-
-3. **Настройте плагин:**
-   - Отредактируйте `config.yml` под свои нужды
-   - Настройте точки пробуждения
-   - Настройте разрешения
 
 ---
 
@@ -230,43 +183,3 @@ recipe_id:
 
 ---
 
-## 📝 Лицензия
-
-Этот проект распространяется под лицензией GPL-3.0. См. файл [LICENSE](LICENSE) для подробностей.
-
----
-
-## 🔗 Полезные ссылки
-
-- [BreweryX на Hangar](https://hangar.papermc.io/BreweryTeam/BreweryX)
-- [Официальная документация](https://brewery.lumamc.net)
-- [GitHub BreweryX](https://github.com/BreweryTeam/BreweryX)
-- [Discord сервер](https://discord.gg/breweryx)
-- [Modrinth](https://modrinth.com/plugin/breweryx)
-
----
-
-## 💖 Благодарности
-
-- **SilverPeek Server** - за вдохновение и тестирование рецептов
-- **BreweryX Team** - за создание и поддержку плагина
-- **Сообщество Minecraft** - за вдохновение и идеи рецептов
-- **Все контрибьюторы** - за помощь в развитии проекта
-
----
-
-## 📞 Контакты
-
-Нашли ошибку? Есть предложения? Создайте [Issue](../../issues) или свяжитесь с нами!
-
----
-
-<div align="center">
-
-**Приятного пивоварения! 🍻**
-
-![Cheers](images/cheers.png)
-
-*Сделано с ❤️ для сообщества Minecraft*
-
-</div>
